@@ -1,12 +1,11 @@
-// import LakeTahoe from '../Images/LakeTahoe';
+import HolidayImage from '../Images/HolidayImage.jpg';
 import '../App.css';
 
 function GreetingCard({ greeting, body, closing, setCustomize }) {
     return (
         <div className="App">
             <header className="App-header">
-            {/* <img src={LakeTahoe} className="App-logo" alt="LakeTahoe" /> */}
-            <p>Image goes here</p>
+            <img src={HolidayImage} className="App-logo" alt="Holiday" />            
             <p>{greeting}</p>
             <p>{body}</p>
             <p>{closing}</p>
