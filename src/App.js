@@ -11,7 +11,9 @@ function App() {
   return (
     <>
       {customize
-        ?<CustomizeMessage />
+        ?<CustomizeMessage 
+          greeting={greeting}
+        />
         :<GreetingCard 
           greeting={greeting}
           body={body}
