@@ -1,6 +1,5 @@
 import HolidayImage from '../Images/HolidayImage.jpg';
 import '../App.css';
-import { useState} from 'react';
 
 function CustomizeMessage({ email, greeting, body, closing, setGreeting, setBody, setClosing, setEmail, setPreview, setCustomize}) {    
 
