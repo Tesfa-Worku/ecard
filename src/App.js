@@ -7,8 +7,8 @@ function App() {
   const query = new URLSearchParams(window.location.search);
   const [email, setEmail] = useState('');
   const [greeting, setGreeting] = useState(query.get("greeting") || 'Dear loved one');
-  const [body, setBody] = useState('have a wonderful and joyful holiday');
-  const [closing, setClosing] = useState('yours, with Love');
+  const [body, setBody] = useState(query.get("body") || 'have a wonderful and joyful holiday');
+  const [closing, setClosing] = useState(query.get("closing") || 'yours, with Love');
   const [customize, setCustomize] = useState(false);
   const [preview, setPreview] = useState(false);  
 
