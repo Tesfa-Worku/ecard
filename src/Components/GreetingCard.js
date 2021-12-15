@@ -18,6 +18,7 @@ function GreetingCard({ email, greeting, body, closing, setCustomize, preview, s
                 {preview
                     ? <div>
                         <button onClick={continueEditing}>Continue Editing</button>                        
+                        <button onClick={sendEcard}>Send</button>                        
                     </div>                    
                     : <button className="App-link" onClick={() => setCustomize(true)}>Reshare This card</button>
                 }
