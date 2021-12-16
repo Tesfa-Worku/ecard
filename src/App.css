@@ -40,3 +40,8 @@ body {
   width: 150px;
   height: auto;
 }
+
+.script {
+  font-family: 'Corinthia', cursive;
+  color: red;
+}
