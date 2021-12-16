@@ -23,6 +23,44 @@ body {
   color: white;
 }
 
+.neon-light {
+  transform: translate(-0%, -650%);
+  box-shadow: 0 0 40px 5px #fff, inset 0 0 20px #fff, 0 0 160px 20px #08f,
+    inset 0 0 20px #08f, 0 0 320px 30px #08f, inset 0 0 20px rgb(194, 124, 124);
+  animation: run 1s linear infinite;
+}
+
+@keyframes run {
+  0% {
+    left: 35%;
+    opacity: 0;
+  }
+  2% {
+    left: 35%;
+    opacity: 1;
+  }
+  4% {
+    left: 35%;
+    opacity: 0;
+  }
+  6% {
+    left: 35%;
+    opacity: 1;
+  }
+  8% {
+    left: 35%;
+    opacity: 0;
+  }
+  10% {
+    left: 35%;
+    opacity: 1;
+  }
+  100% {
+    left: 65%;
+    opacity: 1;
+  }
+}
+
 .button {
   background-color: rgb(176, 176, 243);
   color: #000;
@@ -42,6 +80,6 @@ body {
 }
 
 .script {
-  font-family: 'Corinthia', cursive;
+  font-family: "Corinthia", cursive;
   color: red;
 }

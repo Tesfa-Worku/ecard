@@ -31,7 +31,12 @@ function GreetingCard({ email, greeting, body, closing, setCustomize, preview, s
     return (
         <div className="App">
             <header className="App-header">
-                <img src={HolidayImage} className="App-logo" alt="Holiday" />            
+                <div>
+                    <img src={HolidayImage} className="App-logo" alt="Holiday" />
+                    <div className='neon-light'>
+                        Happy Holiday!
+                    </div>
+                </div>                
                 <p className='script'>{greeting}</p>
                 <p className='script'>{body}</p>
                 <p className='script'>{closing}</p>
