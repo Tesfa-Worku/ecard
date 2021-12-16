@@ -13,7 +13,7 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #b3c0da;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,8 +23,9 @@ body {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  background-color: rgb(176, 176, 243);
+  color: #000;
 }
 
 .instructions {
@@ -32,6 +33,7 @@ body {
   flex-direction: row;
   gap: 10px;
   align-items: center;
+  color: green;
 }
 
 .thumb {

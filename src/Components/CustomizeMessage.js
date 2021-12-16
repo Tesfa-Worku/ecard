@@ -10,12 +10,12 @@ function CustomizeMessage({ email, greeting, body, closing, setGreeting, setBody
     }
 
     return(
-        <div>
+        <div className='App-header'>
             <div className="instructions">
                 <img src={HolidayImage} className="thumb" alt="Holiday" />
-                <p>
-                    <strong>How to Reshare:</strong><br />
-                    Write your own custom message below
+                <p className=''>
+                    <strong style={{color:'darkblue'}}>How to Reshare:</strong><br />
+                    Write your own <br />custom message <br /> below
                 </p>
             </div>
 
@@ -32,6 +32,8 @@ function CustomizeMessage({ email, greeting, body, closing, setGreeting, setBody
                     />
                 </div>
 
+                <br />
+
                 <div>
                     <label htmlFor="greeting">Greeting</label><br />
                     <input
@@ -43,6 +45,8 @@ function CustomizeMessage({ email, greeting, body, closing, setGreeting, setBody
                         placeholder="Greeting"
                     />
                 </div>
+
+                <br />
 
                 <div>
                     <label htmlFor="body">Body</label><br />
@@ -57,6 +61,8 @@ function CustomizeMessage({ email, greeting, body, closing, setGreeting, setBody
                     </textarea>
                 </div>
 
+                <br />
+
                 <div>
                     <label htmlFor="closing">Closing</label><br />
                     <input
@@ -69,7 +75,9 @@ function CustomizeMessage({ email, greeting, body, closing, setGreeting, setBody
                     />
                 </div>
 
-                <button type="submit" onClick={onSubmit}>Preview Greeting Card</button>            
+                <br />
+
+                <button className="button" type="submit" onClick={onSubmit}>Preview Greeting Card</button>            
             </form>
         </div>        
     )

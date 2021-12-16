@@ -37,10 +37,11 @@ function GreetingCard({ email, greeting, body, closing, setCustomize, preview, s
                 <p>{closing}</p>
                 {preview
                     ? <div>
-                        <button onClick={continueEditing}>Continue Editing</button><br />
-                        <button onClick={sendEcard}>Send</button>                        
+                        <button className="button" onClick={continueEditing}>Continue Editing</button><br />
+                        <br />
+                        <button className="button" onClick={sendEcard}>Send</button>                        
                     </div>                    
-                    : <button className="App-link" onClick={() => setCustomize(true)}>Reshare This card</button>
+                    : <button className="button" onClick={() => setCustomize(true)}>Reshare This card</button>
                 }
             </header>
         </div>
