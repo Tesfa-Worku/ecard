@@ -32,9 +32,9 @@ function GreetingCard({ email, greeting, body, closing, setCustomize, preview, s
         <div className="App">
             <header className="App-header">
                 <img src={HolidayImage} className="App-logo" alt="Holiday" />            
-                <p>{greeting}</p>
-                <p>{body}</p>
-                <p>{closing}</p>
+                <p className='script'>{greeting}</p>
+                <p className='script'>{body}</p>
+                <p className='script'>{closing}</p>
                 {preview
                     ? <div>
                         <button className="button" onClick={continueEditing}>Continue Editing</button><br />
