@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ecard/static/css/main.5c78331c.chunk.css",
-    "main.js": "/ecard/static/js/main.33323c44.chunk.js",
-    "main.js.map": "/ecard/static/js/main.33323c44.chunk.js.map",
+    "main.css": "/ecard/static/css/main.13ba2973.chunk.css",
+    "main.js": "/ecard/static/js/main.8b96fc3b.chunk.js",
+    "main.js.map": "/ecard/static/js/main.8b96fc3b.chunk.js.map",
     "runtime-main.js": "/ecard/static/js/runtime-main.e8b3979c.js",
     "runtime-main.js.map": "/ecard/static/js/runtime-main.e8b3979c.js.map",
     "static/js/2.15027dc9.chunk.js": "/ecard/static/js/2.15027dc9.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.02579bca.chunk.js": "/ecard/static/js/3.02579bca.chunk.js",
     "static/js/3.02579bca.chunk.js.map": "/ecard/static/js/3.02579bca.chunk.js.map",
     "index.html": "/ecard/index.html",
-    "static/css/main.5c78331c.chunk.css.map": "/ecard/static/css/main.5c78331c.chunk.css.map",
+    "static/css/main.13ba2973.chunk.css.map": "/ecard/static/css/main.13ba2973.chunk.css.map",
     "static/js/2.15027dc9.chunk.js.LICENSE.txt": "/ecard/static/js/2.15027dc9.chunk.js.LICENSE.txt",
     "static/media/HolidayImage.8dd02547.jpg": "/ecard/static/media/HolidayImage.8dd02547.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e8b3979c.js",
     "static/js/2.15027dc9.chunk.js",
-    "static/css/main.5c78331c.chunk.css",
-    "static/js/main.33323c44.chunk.js"
+    "static/css/main.13ba2973.chunk.css",
+    "static/js/main.8b96fc3b.chunk.js"
   ]
 }
